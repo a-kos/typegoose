@@ -206,6 +206,9 @@ enum Gender {
   FEMALE = 'female',
 }
 
+// more compact
+enum Gender { Male, Female }
+
 @prop({ enum: Gender })
 gender?: Gender;
 ```
